@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "teleo",
+    "password": "",
+    "database": "teleo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "teleo",
+    "password": "",
+    "database": "teleo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "teleodevelopment",
+    "password": "",
+    "database": "database_production",
+    "host": "",
+    "dialect": "mysql"
+  }
+}
