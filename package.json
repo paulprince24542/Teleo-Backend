@@ -1,0 +1,43 @@
+{
+  "name": "teleo-user",
+  "version": "1.0.0",
+  "description": "Teleo User Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "seed": "sequelize db:seed --seed 20211004130956-roles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teleoteam/teleo-user.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teleoteam/teleo-user/issues"
+  },
+  "homepage": "https://github.com/teleoteam/teleo-user#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1004.0",
+    "axios": "^0.22.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "randomstring": "^1.2.1",
+    "sequelize": "^6.6.5",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.4.0"
+  }
+}
