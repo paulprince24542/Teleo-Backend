@@ -1,6 +1,6 @@
 # Teleo Backend
 
-Teleo backend is the backend api and services developed in Node JS and Express framework for the teleo online shopping app which is current development.
+Teleo backend is the backend api and services developed in Node JS and Express framework for the teleo online shopping app which is current under development.
 
 > **The project is under development.**
 
